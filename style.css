@@ -1,1 +1,28 @@
-body {background: #000;}
+body {
+  padding-top: 150px;
+}
+
+.top-nav {
+  background-color: #401d0e;
+  height: 100px;
+}
+.secondary-nav {
+  top: 100px;
+}
+.navbar-brand {
+  padding: 20px 15px;
+  height: auto;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+}
+
+.featured {
+  background-image: url('images/main-image1.jpg');
+  height: 550px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
