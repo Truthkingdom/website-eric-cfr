@@ -1,6 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700);
+
 body {
   padding-top: 150px;
 }
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif; text-transform: uppercase; font-weight: 300;}
+p, li {font-family: 'Lato', sans-serif;}
+.mb-20 {margin-bottom: 20px !important;}
 
 .top-nav {
   background-color: #401d0e;
@@ -24,5 +30,47 @@ body {
   height: 550px;
   background-position: center center;
   background-size: cover;
-  position: relative;
+  /*-webkit-box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.5);*/
+}
+
+.featured-container {
+  position: relative; height: 100%;
+}
+.featured-title {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+}
+.featured-title h1 {
+  color: white;
+}
+
+.sidebar {
+  background-color: #d1c5ab;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.sidebar ul {
+  padding-left: 20px;
+
+}
+
+.sidebar li {
+  line-height: 35px;
+}
+
+.sidebar hr {
+  border-top: 1px solid #000;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.article-body .title {
+  color: #847c77;
+}
+.article-body p {
+  margin: 0 0 20px;
 }
